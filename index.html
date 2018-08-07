@@ -6,6 +6,36 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  
+  <style>
+    * {
+      margin: 0;
+    }
+    html, body {
+      height: 100%;
+    }
+
+    .wrap {
+      background: pink;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .content {
+      flex-grow: 1;
+      flex-shrink: 0;
+      flex-basis: auto;
+    }
+    .footer {
+      min-height: 100px;
+      background: cadetblue;  
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: auto;
+    }
+
+  </style>
+  
 </head>
 <body>
 <div class="wrap">
